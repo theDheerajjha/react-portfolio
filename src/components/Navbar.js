@@ -6,7 +6,7 @@ function NavBar() {
 
   return (
     <>
-      <Navbar className="nav-bar" variant="light">
+      <Navbar sticky="top" className="nav-bar" variant="light">
         <Container>
           <Navbar.Brand href="#home">
          
