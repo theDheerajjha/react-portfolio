@@ -13,13 +13,9 @@ function AboutMe() {
         />
         <Figure.Caption className="figure-caption">
           <div class="description">
-            <h2>Software Developer</h2>
+            <h2>Frontend Engineer</h2>
             <p>
-              With industry experience building Web Applications and Websites. I
-              specialize in JavaScript and have professional experience working
-              with Frontend technologies like Vue 3, Angular, JQuery, and HTML.
-              I am also familiar with Backend technologies like Node.Js,
-              Express.JS, and No-SQL Databases.
+              Building Web Applications.
             </p>
           </div>
         </Figure.Caption>
