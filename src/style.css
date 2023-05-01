@@ -69,6 +69,9 @@ html {
 .description p span {
   color: #007bff !important;
 }
+.engineer{
+  color: red !important;
+}
 
 /* -----skill-section--- */
 .skill-section {
