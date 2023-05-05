@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar";
-import "./style.css";
+import "./style.scss";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./components/Home";
@@ -14,6 +14,8 @@ import {
   Routes,
   Navigate,
 } from "react-router-dom";
+import '@fortawesome/fontawesome-free/css/all.css';
+import Footer from "./components/Footer";
 function App() {
   return (
     <Router>
@@ -26,6 +28,7 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
+        <Footer/>
       </div>
     </Router>
   );
