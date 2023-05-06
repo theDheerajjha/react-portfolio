@@ -55,25 +55,8 @@ function AboutMe() {
     //     </div>
     //   </div>
     // </div>,
-    <div className="intro-container">
-      <div className="intro-text">
-        <h1 className="intro-heading">Hi, I'm Dheeraj</h1>
-        <p className="intro-subheading">
-          <h2>
-            <span className="engineer">Frontend</span> {'<'} Engineer {'/'}{'>'}{" "}
-          </h2>
-          with a passion for creating user-friendly Web experiences.
-        </p>
-        <p className="intro-description"></p>
-      </div>
-      <div className="intro-image">
-        <img
-          src="https://avatars.githubusercontent.com/u/52864945?v=4"
-          alt="Profile picture"
-        />
-      </div>
-    </div>
-  );
+    <p>About Me</p>
+      );
 }
 
 export default AboutMe;
