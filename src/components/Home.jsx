@@ -21,11 +21,20 @@ export default function Home() {
           </p>
         </div>
         <div className="mb-2 intro-buttons">
-          <Button onClick={() => window.location = 'mailto:write4dheeraj@gmail.com'} variant="primary" size="lg">
-          &nbsp; &nbsp;Hire Me&nbsp; &nbsp;{" "}
+          <Button
+            onClick={() => (window.location = "mailto:write4dheeraj@gmail.com")}
+            variant="primary"
+            size="lg"
+          >
+            &nbsp; &nbsp;Hire Me&nbsp; &nbsp;{" "}
           </Button>{" "}
-          <Button variant="secondary" size="lg">
-          &nbsp; &nbsp;Resume&nbsp; &nbsp;{" "}
+          <Button
+            href="https://drive.google.com/file/d/1-yo-W8dS0oIvdcGVTrKMhR_nY3_bFnU1/view"
+            variant="secondary"
+            size="lg"
+          >
+            {" "}
+            &nbsp; &nbsp;Resume&nbsp; &nbsp;{" "}
           </Button>
         </div>
       </section>
