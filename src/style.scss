@@ -82,17 +82,16 @@ html {
 
 .intro-container {
   background-color: $p1-bg-color;
-
   display: flex;
+  justify-content: space-around;
   flex-direction: row;
-  justify-content: space-between;
+  flex-wrap: wrap-reverse !important;
   align-items: center;
   padding: 50px 10%;
 }
 
 .intro-text {
-  max-width: 600px;
-}
+width: fit-content;}
 
 .intro-heading {
   font-size: 2rem;
@@ -105,22 +104,18 @@ html {
   font-weight: 300;
   margin-bottom: 30px;
 }
+.intro-image-section {
+  img{
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    align-self: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
 
-.intro-description {
-  font-size: 1.2rem;
-  font-weight: 400;
-  line-height: 1.5;
-  margin-bottom: 30px;
-}
-
-.intro-image img {
-  width: 250px;
-  height: 250px;
-  margin-left: auto;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 /* -----skill-section--- */
@@ -192,4 +187,16 @@ html {
 .footer-text {
   font-size: 1rem;
   font-weight: 300;
+}
+
+
+// -------Resume-----------------
+.resume-frame{
+  margin: 5px !important;
+}
+.resume-section{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
