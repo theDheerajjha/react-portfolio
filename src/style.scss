@@ -200,3 +200,94 @@ width: fit-content;}
   justify-content: space-between;
   flex-direction: column;
 }
+
+// --------About-Me---------
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+.intro-section {
+  background-color: #f2f2f2;
+  padding: 50px;
+  text-align: center;
+}
+
+.intro-section__title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.intro-section__subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.intro-section__skill-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.intro-section__skill-item {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 1.2rem;
+  background-color: #595b5fe1;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.experience-section {
+  background-color: white;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.experience-section__title {
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+
+.experience-section__item-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.experience-section__item-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #999;
+}
+
+.experience-section__item-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.experience-section__item-list li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.about-section {
+  background-color: #f2f2f2;
+  padding: 50px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.about-section__title {
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+
+.about-section__text {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.about-section__link {
+  color: #61dafb;
+}
