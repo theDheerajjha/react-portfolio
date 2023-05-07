@@ -8,7 +8,7 @@ function NavBar() {
     <>
       <Navbar sticky="top" className="nav-bar" variant="light">
         <Container>
-          <Navbar.Brand href="#home"></Navbar.Brand>
+          {/* <Navbar.Brand className="brand-logo"><h3>{'</>'}</h3> </Navbar.Brand> */}
           <Nav className="ms-auto">
             <Nav.Link as={Link} to="/Home">
               Home

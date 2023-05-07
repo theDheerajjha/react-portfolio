@@ -1,13 +1,13 @@
-$p1-color: white;
+$p1-bg-color: white;
+$P1-text-color: rgba(0, 0, 0, 0.845);
 
 html {
-  background-color: $p1-color;
+  background-color: $p1-bg-color;
 }
 .navbar {
-  background-color: $p1-color;
+  background-color: $p1-bg-color;
 }
 
-.navbar-brand,
 .navbar-nav .nav-link {
   font-weight: 500 !important;
   font-size: large !important;
@@ -22,14 +22,16 @@ html {
 .navbar-toggler-icon {
   background-color: #fff !important;
 }
-
+.brand-logo{
+  color: rgb(232, 49, 49) !important;
+}
 /* -----AboutMe---- */
 .about-me {
   width: 100%;
   height: "100vh";
   align-items: center;
   margin-top: auto;
-  background-color: $p1-color;
+  background-color: $p1-bg-color;
 }
 .figure-box {
   margin: 50px 30% 50px 30%;
@@ -74,12 +76,12 @@ html {
   color: #007bff !important;
 }
 .engineer {
-  color: #ff4f63 !important;
+  color: #007bff !important;
 }
 // ----------intro-------
 
 .intro-container {
-  background-color: $p1-color;
+  background-color: $p1-bg-color;
 
   display: flex;
   flex-direction: row;
@@ -93,14 +95,14 @@ html {
 }
 
 .intro-heading {
-  font-size: 3rem;
-  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 400;
   margin-bottom: 20px;
 }
 
 .intro-subheading {
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 300;
   margin-bottom: 30px;
 }
 
@@ -123,7 +125,7 @@ html {
 
 /* -----skill-section--- */
 .skill-section {
-  background-color: $p1-color;
+  background-color: $p1-bg-color;
   padding: 50px;
   color: #fff;
   font-size: 18px;
@@ -168,7 +170,7 @@ html {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 .social-icons {
