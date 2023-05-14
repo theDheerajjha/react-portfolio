@@ -33,12 +33,11 @@ export default function Home() {
             variant="secondary"
             size="lg"
           >
-            {" "}
-            &nbsp; &nbsp;Resume&nbsp; &nbsp;{" "}
+            &nbsp; &nbsp;Resume&nbsp; &nbsp;
           </Button>
         </div>
       </section>
-      <section className="intro-image-section   ">
+      <section className="intro-image-section">
         <img src="https://i.ibb.co/59CR5Wz/DP.jpg" alt="Profile picture" />
       </section>
     </div>
