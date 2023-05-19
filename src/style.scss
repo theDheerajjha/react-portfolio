@@ -11,7 +11,7 @@ html {
 .navbar-nav .nav-link {
   font-weight: 500 !important;
   font-size: large !important;
-  color: #706869!important;
+  color: #706869 !important;
 }
 
 .navbar-nav .nav-link:hover,
@@ -22,7 +22,7 @@ html {
 .navbar-toggler-icon {
   background-color: #fff !important;
 }
-.brand-logo{
+.brand-logo {
   color: rgb(232, 49, 49) !important;
 }
 /* -----AboutMe---- */
@@ -91,7 +91,8 @@ html {
 }
 
 .intro-text {
-width: fit-content;}
+  width: fit-content;
+}
 
 .intro-heading {
   font-size: 2rem;
@@ -105,7 +106,7 @@ width: fit-content;}
   margin-bottom: 30px;
 }
 .intro-image-section {
-  img{
+  img {
     width: 250px;
     height: 250px;
     margin: auto;
@@ -115,13 +116,11 @@ width: fit-content;}
     object-position: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
-
 }
 
 /* -----skill-section--- */
-.card{
+.card {
   padding: 50px !important;
-
 }
 .skill-section {
   background-color: $p1-bg-color;
@@ -176,6 +175,9 @@ width: fit-content;}
 .social-icons {
   display: flex;
   flex-direction: row;
+  a:hover {
+    color: #a5c3f6 !important;
+  }
 }
 
 .social-icons a {
@@ -194,12 +196,11 @@ width: fit-content;}
   font-weight: 300;
 }
 
-
 // -------Resume-----------------
-.resume-frame{
+.resume-frame {
   margin: 5px !important;
 }
-.resume-section{
+.resume-section {
   align-items: center;
   display: flex;
   justify-content: space-between;
@@ -207,8 +208,7 @@ width: fit-content;}
 }
 
 // --------About-Me---------
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 .intro-section {
   background-color: #f2f2f2;
@@ -234,7 +234,7 @@ width: fit-content;}
 
 .intro-section__skill-item {
   display: inline-block;
-  margin:2px 5px;
+  margin: 2px 5px;
   font-size: 1.2rem;
   background-color: #292a2be1;
   color: white;
@@ -276,7 +276,7 @@ width: fit-content;}
 }
 
 .about-section {
-  background-color: white ;
+  background-color: white;
   padding: 50px;
   margin-top: 50px;
   margin-bottom: 10px;
