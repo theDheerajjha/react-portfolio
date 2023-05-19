@@ -18,19 +18,56 @@ function IntroSection() {
   ];
 
   return (
-    <div className="intro-section">
-      <h1 className="intro-section__title">Hi, I'm Dheeraj!</h1>
-      <p className="intro-section__subtitle">
-        A frontend developer with expertise in:
-      </p>
-      <ul className="intro-section__skill-list">
-        {skills.map((skill) => (
-          <li key={skill} className="intro-section__skill-item">
-            {skill}
-          </li>
-        ))}
-      </ul>
-    </div>
+    <>
+      <div className="intro-section">
+        <h1 className="intro-section__title">Hi, I'm Dheeraj!</h1>
+        <p className="intro-section__subtitle">
+          A <span className="engineer">Frontend Developer</span> with expertise
+          in:
+        </p>
+        <ul className="intro-section__skill-list">
+          {skills.map((skill) => (
+            <li key={skill} className="intro-section__skill-item">
+              {skill}
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="card-body skill-section">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="skill text-center">
+                <img
+                  src="https:upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg"
+                  class="img-fluid"
+                  alt="Vue"
+                />
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="skill text-center">
+                <img
+                  src="https:upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+                  class="img-fluid"
+                  alt="React"
+                />
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="skill text-center">
+                <img
+                  src="https:upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg"
+                  class="img-fluid"
+                  alt="Angular"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
   );
 }
 
