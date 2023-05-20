@@ -11,7 +11,7 @@ export default function Resume() {
       setTimeout(() => {
         console.log("hello");
         setLoading(false);
-      }, 3000);
+      }, 5000);
     }
   }, []);
 
