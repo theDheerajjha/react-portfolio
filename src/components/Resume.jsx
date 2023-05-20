@@ -7,7 +7,7 @@ export default function Resume() {
       <iframe
         className="resume-frame"
         src="https://drive.google.com/file/d/1-yo-W8dS0oIvdcGVTrKMhR_nY3_bFnU1/preview"
-        width="50%"
+        width="60%"
         height="385"
         allow="autoplay"
       ></iframe>{" "}
