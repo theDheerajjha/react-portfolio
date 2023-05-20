@@ -46,7 +46,12 @@ html {
   width: 40vmin !important;
   border-radius: 100%;
 }
-
+.loader-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
 .description {
   background-color: #f9f9f9 !important;
   padding: 30px !important;

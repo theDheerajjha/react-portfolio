@@ -9,7 +9,6 @@ export default function Resume() {
   useEffect(() => {
     if (loading) {
       setTimeout(() => {
-        console.log("hello");
         setLoading(false);
       }, 5000);
     }
