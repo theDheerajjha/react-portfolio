@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import { Blocks, InfinitySpin} from "react-loader-spinner";
+import { Blocks, InfinitySpin, ThreeDots } from "react-loader-spinner";
 import Button from "react-bootstrap/Button";
 
 export default function Resume() {
@@ -15,7 +15,16 @@ export default function Resume() {
   }, []);
 
   const bottomComponent = loading ? (
-    <InfinitySpin width="100" color="#4fa94d" />
+    <ThreeDots
+      height="80"
+      width="80"
+      radius="9"
+      color="#4fa94d"
+      ariaLabel="three-dots-loading"
+      wrapperStyle={{}}
+      wrapperClassName=""
+      visible={loading}
+    />
   ) : (
     <Button
       variant="secondary"
