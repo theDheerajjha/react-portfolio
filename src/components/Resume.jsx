@@ -15,7 +15,7 @@ export default function Resume() {
   }, []);
 
   const bottomComponent = loading ? (
-    <InfinitySpin width="200" color="#4fa94d" />
+    <InfinitySpin width="100" color="#4fa94d" />
   ) : (
     <Button
       variant="secondary"
