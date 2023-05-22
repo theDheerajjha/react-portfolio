@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import { Blocks } from "react-loader-spinner";
+import { Blocks, InfinitySpin} from "react-loader-spinner";
 import Button from "react-bootstrap/Button";
 
 export default function Resume() {
@@ -15,14 +15,7 @@ export default function Resume() {
   }, []);
 
   const bottomComponent = loading ? (
-    <Blocks
-      visible={loading}
-      height="80"
-      width="80"
-      ariaLabel="blocks-loading"
-      wrapperStyle={{}}
-      wrapperClass="blocks-wrapper"
-    />
+    <InfinitySpin width="200" color="#4fa94d" />
   ) : (
     <Button
       variant="secondary"
