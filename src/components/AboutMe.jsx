@@ -123,9 +123,8 @@ function AboutSection() {
   return (
     <>
       <div className="about-section">
-        Hello, My name is Dheeraj Jha. I have been working as a front-end
-        developer for the past two years. In terms of academics, I completed a
-        B.Tech in IT in 2021 from Punjab Technical University. Currently, I am
+        Hello, My name is Dheeraj Jha. I have been working as a front-end Developer for the past two years.
+        In terms of academics, I completed a B.Tech in IT in 2021 from Punjab Technical University. Currently, I am
         working on a project called Axxess Homecare, which is used by healthcare
         agencies in the US to provide homecare services. In the front-end
         development of this project, we utilize technologies such as Vue.js,
