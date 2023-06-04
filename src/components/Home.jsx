@@ -7,7 +7,7 @@ export default function Home() {
       <section className="intro-text">
         <div>
           <h2 className="intro-heading">
-            Hi, I'm <span className="full-name">Dheeraj Jha</span>
+            Hi, I'm <span className="full-name">Dheeraj</span>
           </h2>
           <p className="intro-subheading">
             {/* <h2>
