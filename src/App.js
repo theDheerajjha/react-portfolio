@@ -18,7 +18,6 @@ import { Vortex,BallTriangle } from "react-loader-spinner";
 import Footer from "./components/Footer";
 function App() {
   const [loading, setLoading] = useState(true);
-
   useEffect(() => {
     if (loading) {
       setTimeout(() => {

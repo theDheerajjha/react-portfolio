@@ -29,7 +29,7 @@ export default function Resume() {
     <Button
       variant="secondary"
       size="lg"
-      href="https://drive.google.com/file/d/1-yo-W8dS0oIvdcGVTrKMhR_nY3_bFnU1/view"
+      href="https://drive.google.com/file/d/1x4WM_BoD0JgexyH_HyqM08iiJoo4z7SD/view"
     >
       Download
     </Button>
@@ -38,7 +38,7 @@ export default function Resume() {
     <div className="resume-section">
       <iframe
         className="resume-frame"
-        src="https://drive.google.com/file/d/1-yo-W8dS0oIvdcGVTrKMhR_nY3_bFnU1/preview"
+        src="https://drive.google.com/file/d/1x4WM_BoD0JgexyH_HyqM08iiJoo4z7SD/view"
         width="60%"
         height="385"
         allow="autoplay"
