@@ -123,18 +123,18 @@ function AboutSection() {
   return (
     <>
       <div className="about-section">
-        Hello, My name is Dheeraj Jha. I have been working as a front-end Developer for the past two years.
-        In terms of academics, I completed a B.Tech in IT in 2021 from Punjab Technical University. Currently, I am
-        working on a project called Axxess Homecare, which is used by healthcare
-        agencies in the US to provide homecare services. In the front-end
-        development of this project, we utilize technologies such as Vue.js,
-        Knockout.js, and jQuery, with a primary focus on jQuery. On the backend,
-        we employ C# and use MySQL as our database. My role within the project
-        involves gathering front-end requirements from the product team,
-        collaborating with designers and the backend team to implement the
-        desired features, conducting code reviews to ensure high code quality,
-        maintaining documentation, and mentoring associates. That's a brief
-        overview of my experience and responsibilities in my current role.
+A Frontend Engineer driven by a boundless enthusiasm for crafting captivating digital interfaces. With a rich background in developing robust web applications, I bring a blend of technical expertise and creative vision to every project I undertake.
+
+My journey in frontend development has been marked by a relentless pursuit of excellence. From designing pixel-perfect layouts to implementing complex functionality, I thrive on the challenge of turning ideas into polished, user-friendly experiences. Proficient in React.js, Vue.js, jQuery, and Knockout.js, I possess a versatile skill set that enables me to adapt to the unique demands of each project.
+
+But my passion for technology extends beyond just writing code.  <br />
+I'm deeply invested in the user experience, constantly seeking ways to enhance usability, accessibility, and overall satisfaction. By staying attuned to emerging trends and best practices, I strive to deliver solutions that not only meet but exceed expectations.
+
+Collaboration lies at the heart of my approach. I believe that the best outcomes are achieved when diverse talents come together, fostering creativity, innovation, and mutual growth. Whether collaborating with designers, fellow developers, or stakeholders, I approach each interaction with humility, empathy, and a commitment to excellence.
+
+Beyond the realm of coding, I'm an avid learner and explorer. I'm passionate about staying curious, whether it's delving into new technologies, attending industry conferences, or contributing to community-driven initiatives. I firmly believe that the key to success lies in embracing lifelong learning and embracing change.
+
+In summary, I'm not just a coder—I'm a storyteller, a problem-solver, and a creative thinker. I'm on a mission to harness the power of technology to enrich lives, spark connections, and drive positive change. Let's collaborate and create something truly remarkable together.
         <br />
         <br />
         <p className="about-section__text">
