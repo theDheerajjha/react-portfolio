@@ -10,10 +10,7 @@ export default function Home() {
             Hi, I'm <span className="full-name">Dheeraj</span>
           </h2>
           <p className="intro-subheading">
-            {/* <h2>
-            <span className="engineer">Frontend</span> {"<"} Engineer {"/"}
-            {">"}
-          </h2> */}
+
             <h2>
               <span className="engineer">Frontend </span> Engineer
             </h2>
@@ -29,7 +26,7 @@ export default function Home() {
             &nbsp; &nbsp;Hire Me&nbsp; &nbsp;{" "}
           </Button>{" "}
           <Button
-            href="https://drive.google.com/file/d/1-yo-W8dS0oIvdcGVTrKMhR_nY3_bFnU1/view"
+            href="https://drive.google.com/file/d/1x4WM_BoD0JgexyH_HyqM08iiJoo4z7SD/view"
             variant="secondary"
             size="lg"
           >
