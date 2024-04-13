@@ -16,9 +16,6 @@ function NavBar() {
             <Nav.Link as={Link} to="/about">
               About Me
             </Nav.Link>
-            <Nav.Link as={Link} to="/resume">
-              Resume
-            </Nav.Link>
             <Nav.Link as={Link} to="/project">
               Projects
             </Nav.Link>

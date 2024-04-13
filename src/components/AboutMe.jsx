@@ -124,9 +124,7 @@ function AboutSection() {
     <>
       <div className="about-section">
 A Frontend Engineer driven by a boundless enthusiasm for crafting captivating digital interfaces. With a rich background in developing robust web applications, I bring a blend of technical expertise and creative vision to every project I undertake.
-
 My journey in frontend development has been marked by a relentless pursuit of excellence. From designing pixel-perfect layouts to implementing complex functionality, I thrive on the challenge of turning ideas into polished, user-friendly experiences. Proficient in React.js, Vue.js, jQuery, and Knockout.js, I possess a versatile skill set that enables me to adapt to the unique demands of each project.
-
 But my passion for technology extends beyond just writing code.  <br />
 I'm deeply invested in the user experience, constantly seeking ways to enhance usability, accessibility, and overall satisfaction. By staying attuned to emerging trends and best practices, I strive to deliver solutions that not only meet but exceed expectations.
 

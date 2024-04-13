@@ -10,7 +10,6 @@ export default function Home() {
             Hi, I'm <span className="full-name">Dheeraj</span>
           </h2>
           <p className="intro-subheading">
-
             <h2>
               <span className="engineer">Frontend </span> Engineer
             </h2>
@@ -20,17 +19,39 @@ export default function Home() {
         <div className="mb-2 intro-buttons">
           <Button
             onClick={() => (window.location = "mailto:write4dheeraj@gmail.com")}
-            variant="primary"
-            size="lg"
+            variant="outline-primary"
+            size="sm"
+            className="mr-2"
+            style={{ margin: "0 5px" }}
           >
-            &nbsp; &nbsp;Hire Me&nbsp; &nbsp;{" "}
-          </Button>{" "}
+            Hire Me
+          </Button>
+          <Button
+            href="https://github.com/theDheerajjha"
+            variant="outline-warning"
+            size="sm"
+            className="mr-2"
+            style={{ margin: "0 5px" }}
+          >
+            Github <i className="fab fa-github"></i>
+          </Button>
           <Button
             href="https://drive.google.com/file/d/1x4WM_BoD0JgexyH_HyqM08iiJoo4z7SD/view"
-            variant="secondary"
-            size="lg"
+            variant="outline-info"
+            size="sm"
+            className="mr-2"
+            style={{ margin: "0 5px" }}
           >
-            &nbsp; &nbsp;Resume&nbsp; &nbsp;
+            Resume
+          </Button>
+
+          <Button
+            href="https://dev.to/thedheerajjha"
+            variant="outline-success"
+            size="sm"
+            style={{ margin: "0 5px" }}
+          >
+            Blog's
           </Button>
         </div>
       </section>
