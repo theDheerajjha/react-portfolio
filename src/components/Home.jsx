@@ -18,15 +18,6 @@ export default function Home() {
         </div>
         <div className="mb-2 intro-buttons">
           <Button
-            onClick={() => (window.location = "mailto:write4dheeraj@gmail.com")}
-            variant="outline-primary"
-            size="sm"
-            className="mr-2"
-            style={{ margin: "0 5px" }}
-          >
-            Hire Me
-          </Button>
-          <Button
             href="https://github.com/theDheerajjha"
             variant="outline-warning"
             size="sm"
@@ -52,6 +43,15 @@ export default function Home() {
             style={{ margin: "0 5px" }}
           >
             Blog's
+          </Button>
+          <Button
+            onClick={() => (window.location = "mailto:write4dheeraj@gmail.com")}
+            variant="outline-primary"
+            size="sm"
+            className="mr-2"
+            style={{ margin: "0 5px" }}
+          >
+            Hire Me
           </Button>
         </div>
       </section>
